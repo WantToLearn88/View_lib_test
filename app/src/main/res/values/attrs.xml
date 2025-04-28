@@ -1,0 +1,14 @@
+<resources>
+<declare-styleable name="MyCustomView">
+    <attr name="labelText" format="string"/>
+    <attr name="textSize" format="dimension"/>
+    <attr name="bgColor" format="color"/>
+    <attr name="borderColor" format="color"/>
+    <attr name="fontStyle" format="enum">
+        <enum name="normal" value="0"/>
+        <enum name="bold" value="1"/>
+        <enum name="italic" value="2"/>
+        <enum name="bold_italic" value="3"/>
+    </attr>
+</declare-styleable>
+</resources>
